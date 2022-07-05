@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;font-style: italic;color: blue;}
+			#MainUL li:hover ul li ul li{display:none;font-style: italic;color: brown;}
+			#MainUL li ul li:hover ul li{display:block;font-style: italic;color: rgb(147, 42, 165);}
+			#MainUL li ul li:hover ul li ul li{display:none;font-style: italic;color: rgb(54, 165, 42);}
+            #MainUL li ul li ul li:hover ul li{display:block;font-style: italic;color: rgb(149, 165, 42);}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>Google
+				<ul>
+					<li>Gmail
+						<ul>
+							<li>Sign Up</li>
+							<li>Sign In
+								<ul>
+									<li>Sign In As Admin</li>
+									<li>Sign In As Member</li>
+								</ul>
+							</li>
+                            <li>As guest</li>
+						</ul>
+					</li>
+					<li>Youtube</li>
+					<li>GDrive</li>
+					<li>GMap</li>
+				</ul>
+			</li>
+			<li>Facebook
+                <ul></ul>
+            </li>
+			<li>Microsoft
+				<ul>
+					<li>Bing</li>
+					<li>Linked In</li>
+				</ul>
+			</li>
+			<li>MSN</li>
+			<li>Amazon
+				<ul>
+					<li>AWS</li>
+					<li>Ecommerce</li>
+					<li>A-ML</li>
+				</ul>
+			</li>
+		</ul>
+		<img src="C:\Users\Sweta Ajudiya\OneDrive\Pictures\ahmedabad1.png" alt="">
+		<video src="C:\Users\Sweta Ajudiya\OneDrive\Desktop\Xender\video\satyam.mp4"></video>
+		
+	</body>
+</html>
